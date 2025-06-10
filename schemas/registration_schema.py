@@ -8,7 +8,7 @@ class Registration(BaseModel):
     registration_date: date  # We'll set this during registration
     attended: bool = False   #   By default,   attendance is not marked
 
-# This is the response format that includes the registration ID
+# This is the response formatt that includes the registration ID
 class RegistrationResponse(Registration):
     id: int
 
