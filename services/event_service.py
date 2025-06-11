@@ -13,7 +13,7 @@ def create_event(event_data):
     event_id_counter += 1
     return new_event
 
-# Get all events
+# This returns the list of all events that have been created so far
 def get_all_events():
     return events
 
