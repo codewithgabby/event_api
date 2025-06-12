@@ -7,11 +7,12 @@ user_id_counter = 1
 # Function to create a new user
 def create_user(user_data):
     global user_id_counter
-    new_user = user_data.dict()
-    new_user["id"] = user_id_counter
-    users.append(new_user)
+    created_user = user_data.dict()
+    created_user["id"] = user_id_counter
+    users.append(created_user)
     user_id_counter += 1
-    return new_user
+    return created_user
+
 
 # Function to get all users
 def get_all_users():
