@@ -49,6 +49,10 @@ Tech Stack:
 # In-memory storage (lists)
 
 
+> Note: You can test duplicate registration prevention by trying to register the same user twice for the same event. The API will return an error if the user is already registered.
+
+
+
 
 
 
